@@ -27,7 +27,7 @@ public class Algorithme
     	        }
     	
    	 }
-    	System.out.println("La solution est comprise entre "+a+"et "+b);
+    	System.out.println("La solution est comprise entre "+a+" et "+b);
     }
 }
 
