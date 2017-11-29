@@ -9,14 +9,14 @@ public class Algorithme //Class
 
     public static void main(String[] args) {
     	sc = new Scanner(System.in);
-    	System.out.print("Entrez la valeur de a:");//Afficher un message a l'écran
+    	System.out.print("Entrez la valeur de a:");//Afficher un message à l'écran
     	double a = sc.nextDouble();//Une entrée clavier est requise pour affecter une valeur décimal à A
-    	System.out.print("Entrez la valeur de b:");//Afficher un message a l'écran
+    	System.out.print("Entrez la valeur de b:");//Afficher un message à l'écran
     	double b = sc.nextDouble();//Une entrée clavier est requise pour affecter une valeur décimal à B
-    	System.out.print("Entrez la valeur de N:");//Afficher un message a l'écran
-	int N = sc.nextInt();//Une entrée clavier est requise pour affecter une entier à N
+    	System.out.print("Entrez la valeur de N:");//Afficher un message à l'écran
+	int N = sc.nextInt();//Une entrée clavier est requise pour affecter un entier à N
     	for(int k = 1; k <=N; k++) {
-	//Boucle "pour", k est un entier et est egal a 1 au debut de la boucle, pour k allant de 1 a N,on effecte a k la valeur k = k+1
+	//Boucle "pour", k est un entier egal à 1 au debut de la boucle, pour k allant de 1 à N,on effecte à k la valeur k = k+1
     		m = (a+b)/2;// m prend cette valeur
     		fa = Math.pow(a, 3)+2*(a)-2 ;//formule de f(a)
     		fm = Math.pow(m, 3)+2*(m)-2 ;//formule de f(b)
@@ -31,7 +31,7 @@ public class Algorithme //Class
     	
    	 }
     	System.out.println("La solution est comprise entre "+a+" et "+b);
-	    //Affichage des solutions a l'ecran
+	    //Affichage des solutions à l'ecran
     }
 }
 
